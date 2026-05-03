@@ -3,7 +3,7 @@ pymupdf
 sentence-transformers
 faiss-cpu
 transformers
-torch
+torch==2.0.1
 numpy
 reportlab
 deep-translator
