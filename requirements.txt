@@ -1,0 +1,12 @@
+streamlit
+pymupdf
+sentence-transformers
+faiss-cpu
+transformers
+torch
+numpy
+reportlab
+deep-translator
+pyvis
+google-genai
+beautifulsoup4

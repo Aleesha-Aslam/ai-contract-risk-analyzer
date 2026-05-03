@@ -1,0 +1,113 @@
+📄 AI Contract Risk Analyzer
+🧠 Overview
+
+The AI Contract Risk Analyzer is an AI-powered web application that helps users analyze legal contracts (PDF documents) and extract key insights such as:
+
+📌 Document summary
+🚨 Risk detection (Low / Medium / High)
+💬 Question answering over contract content
+📄 Multi-document understanding
+
+It uses Machine Learning + NLP + LLM (Local AI model) to process and analyze legal documents intelligently.
+
+🚀 Features
+📂 Upload multiple PDF contracts
+🧠 AI-powered document understanding
+🔍 Ask questions from contract content
+🚨 Automatic risk analysis
+📄 Smart summarization
+⚡ Fast local AI model (no API required)
+🛠️ Tech Stack
+Python 🐍
+Streamlit (Web App UI)
+Transformers (HuggingFace NLP models)
+PyMuPDF (PDF processing)
+FAISS (Vector search)
+Sentence Transformers (Embeddings)
+Machine Learning / NLP
+📁 Project Structure
+ai-contract-risk-analyzer/
+│
+├── app.py
+├── requirements.txt
+│
+├── utils/
+│   ├── pdf_loader.py
+│   ├── chunker.py
+│   ├── embeddings.py
+│   ├── vectorstore.py
+│   ├── retriever.py
+│   ├── risk_analyzer.py
+│   ├── llm.py
+│
+├── data/
+│   └── sample_pdfs/
+│
+├── vector_db/
+│
+└── README.md
+⚙️ Installation
+1️⃣ Clone the repository
+git clone https://github.com/your-username/ai-contract-risk-analyzer.git
+cd ai-contract-risk-analyzer
+2️⃣ Install dependencies
+pip install -r requirements.txt
+3️⃣ Run the application
+streamlit run app.py
+📊 How It Works
+User uploads PDF contract
+Text is extracted using PyMuPDF
+Text is split into chunks
+Embeddings are created using Sentence Transformers
+FAISS retrieves relevant sections
+Local LLM generates answers
+Risk analyzer evaluates contract safety
+🚨 Risk Analysis
+
+The system detects risky legal patterns such as:
+
+Ambiguous terms
+Liability disclaimers
+Unclear payment conditions
+Unspecified clauses
+
+Output:
+
+🟢 Low Risk
+🟡 Medium Risk
+🔴 High Risk
+💬 Example Use Case
+
+Question:
+
+What is this contract about?
+
+AI Answer:
+
+This is a service agreement between two parties defining payment terms, responsibilities, and termination conditions.
+
+📌 Requirements
+streamlit
+pymupdf
+sentence-transformers
+faiss-cpu
+transformers
+torch
+numpy
+🔥 Future Improvements
+Add Gemini / GPT API integration
+Improve risk scoring with ML classification
+Add authentication system
+Deploy on cloud (Streamlit / Render)
+Add chat history feature
+👨‍💻 Author
+
+Developed as an AI Course Project demonstrating:
+
+NLP
+Machine Learning
+Information Retrieval
+LLM-based applications
+📜 License
+
+This project is for educational purposes.
