@@ -62,26 +62,27 @@
 ---
 
 ## 📁 Project Structure
-ai-contract-risk-analyzer/
-│
-├── app.py                    ← Main Streamlit application
-├── requirements.txt          ← All dependencies
-├── README.md                 ← Project documentation
-│
-├── utils/
-│   ├── pdf_loader.py         ← PDF text extraction
-│   ├── chunker.py            ← Text splitting into chunks
-│   ├── embeddings.py         ← Sentence embeddings
-│   ├── vectorstore.py        ← FAISS vector index
-│   ├── retriever.py          ← Semantic retrieval
-│   ├── llm.py                ← Local Flan-T5 model
-│   ├── risk_analyzer.py      ← Risk scoring & keywords
-│   ├── summarizer.py         ← BART summarization
-│   ├── ner_extractor.py      ← Named entity extraction
-│   ├── entity_graph.py       ← PyVis network graph
-│   ├── gemini_llm.py         ← Gemini AI integration
-│   ├── translator.py         ← Urdu translation
-│   └── pdf_report.py         ← PDF report generation
+
+    ai-contract-risk-analyzer/
+    │
+    ├── app.py                    ← Main Streamlit application
+    ├── requirements.txt          ← All dependencies
+    ├── README.md                 ← Project documentation
+    │
+    ├── utils/
+    │   ├── pdf_loader.py         ← PDF text extraction
+    │   ├── chunker.py            ← Text splitting into chunks
+    │   ├── embeddings.py         ← Sentence embeddings
+    │   ├── vectorstore.py        ← FAISS vector index
+    │   ├── retriever.py          ← Semantic retrieval
+    │   ├── llm.py                ← Local Flan-T5 model
+    │   ├── risk_analyzer.py      ← Risk scoring & keywords
+    │   ├── summarizer.py         ← BART summarization
+    │   ├── ner_extractor.py      ← Named entity extraction
+    │   ├── entity_graph.py       ← PyVis network graph
+    │   ├── gemini_llm.py         ← Gemini AI integration
+    │   ├── translator.py         ← Urdu translation
+    │   └── pdf_report.py         ← PDF report generation
 
 ---
 
