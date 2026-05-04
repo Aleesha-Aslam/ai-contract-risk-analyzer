@@ -18,7 +18,11 @@
 
 ## 🚀 Live Demo
 
-🌐 **Deployed App:** [Click here to try it live](#)
+🌐 **Streamlit App:** https://aleesha-contract-analyzer.streamlit.app
+
+🤗 **Hugging Face:** https://huggingface.co/spaces/TheOrbotAI/ai-contract-risk-analyzer
+
+🐙 **GitHub:** https://github.com/Aleesha-Aslam/ai-contract-risk-analyzer
 
 ---
 
@@ -100,6 +104,52 @@ streamlit run app.py
 
 **4. Open browser:**
 http://localhost:8501
+
+---
+
+## 💻 VS Code Setup
+
+**1. Install VS Code:**
+Download → https://code.visualstudio.com
+
+**2. Install Python Extension:**
+- Open VS Code
+- Click Extensions (Ctrl+Shift+X)
+- Search "Python"
+- Install Microsoft's Python extension
+
+**3. Open Project:**
+- Click File → Open Folder
+- Select `ai-contract-risk-analyzer` folder
+
+**4. Open Terminal:**
+- Click View → Terminal
+- Or press Ctrl+` 
+
+**5. Create Virtual Environment (Recommended):**
+python -m venv venv
+venv\Scripts\activate
+
+**6. Install Dependencies:**
+pip install -r requirements.txt
+
+**7. Run the App:**
+streamlit run app.py
+
+**8. App will open in browser:**
+http://localhost:8501
+
+---
+
+## ⚠️ System Requirements
+
+| Requirement | Minimum |
+|---|---|
+| **Python** | 3.9+ |
+| **RAM** | 4GB (8GB recommended) |
+| **Storage** | 5GB free space |
+| **Internet** | Required for first run (model download) |
+| **OS** | Windows / Mac / Linux |
 
 ---
 
