@@ -7,8 +7,8 @@ def load_model():
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
     
+    # Task ka naam mita diya gaya hai taake error na aaye
     return pipeline(
-        "text2text-generation",
         model=model,
         tokenizer=tokenizer
     )
@@ -35,4 +35,5 @@ Give a simple, clear answer:"""
         early_stopping=True
     )
 
+    # Dictionary reading fix
     return result[0]["generated_text"]
