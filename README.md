@@ -234,18 +234,21 @@ Using Google Translate via deep-translator library with proper RTL (Right-to-Lef
 ---
 
 ## 📋 Requirements
-streamlit
-pymupdf
-sentence-transformers
-faiss-cpu
-transformers
-torch
-numpy
-reportlab
-deep-translator
-pyvis
-google-genai
-beautifulsoup4
+
+| Library | Purpose |
+|---|---|
+| `streamlit` | Web application framework |
+| `pymupdf` | PDF text extraction |
+| `sentence-transformers` | Text embeddings |
+| `faiss-cpu` | Vector similarity search |
+| `transformers` | HuggingFace LLM models |
+| `torch` | Deep learning backend |
+| `numpy` | Numerical computing |
+| `reportlab` | PDF report generation |
+| `deep-translator` | Urdu translation |
+| `pyvis` | Interactive network graphs |
+| `google-genai` | Gemini AI integration |
+| `beautifulsoup4` | HTML parsing |
 
 ---
 
