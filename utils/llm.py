@@ -1,16 +1,11 @@
 import streamlit as st
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
+from transformers import pipeline
 
 @st.cache_resource
 def load_model():
-    model_name = "google/flan-t5-base"
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
-    
-    # Task ka naam mita diya gaya hai taake error na aaye
     return pipeline(
-        model=model,
-        tokenizer=tokenizer
+        "text2text-generation",
+        model="google/flan-t5-base"
     )
 
 def generate_answer(context, question):
@@ -35,5 +30,4 @@ Give a simple, clear answer:"""
         early_stopping=True
     )
 
-    # Dictionary reading fix
     return result[0]["generated_text"]
