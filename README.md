@@ -20,7 +20,7 @@
 
 🌐 **Streamlit App:** https://aleesha-contract-analyzer.streamlit.app
 
-🤗 **Hugging Face:** https://huggingface.co/spaces/TheOrbotAI/ai-contract-risk-analyzer
+🤗 **Hugging Face:** https://theorbotai-ai-contract-risk-analyzer.hf.space
 
 🐙 **GitHub:** https://github.com/Aleesha-Aslam/ai-contract-risk-analyzer
 
